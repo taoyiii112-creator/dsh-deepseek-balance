@@ -127,7 +127,7 @@ v0.5.1 首次实现设置面板半透明、独立页面/面板背景、Wallpaper
 
 插件安装包采用 Web 客户端平台标记，因为官方 Desktop 内嵌共享 Web 应用；Desktop 插件管理器负责安装到独立的 `desktop` profile。`--profile web` 会改到另一套 profile；CLI 对 `--profile desktop` 会返回 Electron 独占 profile 的错误，这是预期保护，不表示插件不兼容。设置中的插件清单是只读视图，应使用左侧栏主“插件”页面。完整步骤和失败排查见 [安装说明](INSTALL.md) 与 [v1.0.1 Desktop 兼容说明](docs/v1.0.1-Desktop兼容说明.md)。
 
-仓库目前没有 GitHub Release 安装包；也可以在 GitHub 下载源码 ZIP、解压后，在“添加插件”中选择本地插件目录。
+1.0.1 安装 ZIP 可从 [GitHub Release](https://github.com/taoyiii112-creator/dsh-deepseek-balance/releases/tag/v1.0.1) 下载；也可以下载源码 ZIP、解压后，在“添加插件”中选择本地插件目录。
 
 ### 配置余额
 
@@ -148,7 +148,7 @@ v0.5.1 首次实现设置面板半透明、独立页面/面板背景、Wallpaper
 ## 当前交付状态
 
 - 源码与两个 manifest 均为 1.0.1；client.platform 为 web，由官方 Desktop 管理器安装到 desktop profile。安装是否成功以用户设备的插件页和会话顶栏为准。
-- 源码已公开在 [GitHub 仓库](https://github.com/taoyiii112-creator/dsh-deepseek-balance)，可从官方 Desktop 插件页通过仓库地址安装；目前没有单独的 GitHub Release 安装包。
+- 源码已公开在 [GitHub 仓库](https://github.com/taoyiii112-creator/dsh-deepseek-balance)，可从官方 Desktop 插件页通过仓库地址安装；1.0.1 安装 ZIP 可从 [GitHub Release](https://github.com/taoyiii112-creator/dsh-deepseek-balance/releases/tag/v1.0.1) 下载。
 - Wallpaper 五种类型尚未逐项实机验收；捕获行为与兼容边界见 [v1.0.1 Desktop 兼容说明](docs/v1.0.1-Desktop兼容说明.md)。
 ## v0.4.0 已实现范围与后续修正
 
@@ -161,7 +161,7 @@ v0.5.1 首次实现设置面板半透明、独立页面/面板背景、Wallpaper
 
 ## 版本历史
 
-- v1.0.1（当前本地候选；未发布）：延续 Wallpaper Engine 五类支持、独立选择页、可拖动设置面板和本机窗口捕获配对。捕获页只请求 `cursor: 'never'`，浏览器可能忽略该请求；用户需在最新版 Chrome/Edge 中自行选择 Wallpaper Engine 窗口。五类 Wallpaper 尚未逐项实机验收，Desktop profile 未由 Codex 回读。
+- v1.0.1（当前 GitHub Release）：延续 Wallpaper Engine 五类支持、独立选择页、可拖动设置面板和本机窗口捕获配对。捕获页只请求 `cursor: 'never'`，浏览器可能忽略该请求；用户需在最新版 Chrome/Edge 中自行选择 Wallpaper Engine 窗口。五类 Wallpaper 尚未逐项实机验收，Desktop profile 未由 Codex 回读。
 - v0.6.2（历史源码基线；旧安装包已清理）：加入 Wallpaper Image/Video/Scene/Web/Application 的来源处理、独立 Wallpaper 选择页、可拖动设置面板和本机浏览器窗口捕获配对。Scene 优先用 `project.json`，无有效清单时可使用唯一根目录 `.pkg`。用户曾确认本机捕获可显示壁纸；这不代表全部类型已逐项验收。
 - v0.6.1（源码、插件包和唯一安装 ZIP 已生成；Desktop 实机验收待完成）：适配官方 Desktop 的共享 Web 渲染器，移除只安装到 Web profile 的旧安装器和诊断代码；明确减少动态效果开关只影响余额滚动、桌宠动画和本地导入视频，Wallpaper Engine Video 独立播放。
 - v0.5.8（源码和唯一安装 ZIP 已生成，真实 profile 与真实页面验收未完成）：修复余额滚动动画结束后 `fill: 'forwards'` 残留位移、遮住最终余额的问题。

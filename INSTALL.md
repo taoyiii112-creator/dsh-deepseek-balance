@@ -1,6 +1,6 @@
 # 安装说明
 
-本说明用于官方 DeepSeek Harness Desktop 插件。v1.0.1 是插件，不包含也不替换 DeepSeek Harness。公开源码仓库为 https://github.com/taoyiii112-creator/dsh-deepseek-balance；目前没有单独的 GitHub Release 安装包。
+本说明用于官方 DeepSeek Harness Desktop 插件。v1.0.1 是插件，不包含也不替换 DeepSeek Harness。源码仓库为 https://github.com/taoyiii112-creator/dsh-deepseek-balance；安装 ZIP 位于 [GitHub Release v1.0.1](https://github.com/taoyiii112-creator/dsh-deepseek-balance/releases/tag/v1.0.1)。
 
 Image/Video 直接读取壁纸项目原文件；Scene/Web/Application 会打开 Wallpaper Engine 具名窗口，并在系统默认浏览器的本机配对页让用户明确选择该窗口，画面通过本机 WebRTC 返回插件。捕获页请求浏览器隐藏系统鼠标指针，但浏览器可能忽略该请求，画面仍可能显示鼠标。安装后继续使用官方 DeepSeek Harness。
 
@@ -20,7 +20,7 @@ Image/Video 直接读取壁纸项目原文件；Scene/Web/Application 会打开 
 
 ## 下载与分发
 
-任何人都可以从公开 GitHub 仓库安装插件或下载源码 ZIP。该仓库不包含 DeepSeek Harness 桌面应用，也没有单独的 GitHub Release 安装包；不需要构建或替换 DeepSeek Desktop。
+从 [GitHub Release v1.0.1](https://github.com/taoyiii112-creator/dsh-deepseek-balance/releases/tag/v1.0.1) 下载唯一安装 ZIP `dsh-deepseek-balance-1.0.1-安装包.zip`，解压后按本页说明把 `.tgz` 路径交给官方 Desktop 插件管理器。也可以直接添加公开 GitHub 仓库地址，或从仓库的“Code”菜单下载源码 ZIP 并选择解压后的插件目录。源码 ZIP 不是 `.tgz` 安装包。项目不包含 DeepSeek Harness 桌面应用，也不需要构建或替换官方 Desktop。
 
 ## 安装失败排查
 
@@ -46,9 +46,9 @@ Image/Video 直接读取壁纸项目原文件；Scene/Web/Application 会打开 
 
 “减少动态效果”不是全局禁播开关：它会影响余额滚动、桌宠动画和本地导入视频；用户主动选择的 Wallpaper Engine Video 继续播放，不受此开关影响。页面隐藏时插件页面背景会暂停；设置打开时，如果页面和面板来源完全相同，则共用一层并继续动态播放，来源不同时暂停页面层视频。此行为不会暂停或修改 Wallpaper Engine 自己的桌面壁纸。
 
-## 本机 v1.0.1 候选状态
+## v1.0.1 发布状态
 
-- v1.0.1 插件 ZIP 是当前唯一保留安装包，内含 Desktop 插件管理器需要的 `.tgz`、哈希和说明。未发布 Release。
+- Release `v1.0.1` 提供唯一安装 ZIP，内含 Desktop 插件管理器需要的 `.tgz`、SHA-256 校验文件和说明。
 - 本次将已实现的 0.6.2 功能基线重命名为 1.0.1 并重建安装包，没有写入或回读 Desktop profile。安装后需从 Desktop“插件”页启用并重启；不能据此确认已安装。鼠标是否显示取决于浏览器对 `cursor: 'never'` 的实际处理；Application 每次仍需用户确认信任。
 
 ## 卸载
