@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" width="1440" height="900">
+<defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#111827"/><stop offset="1" stop-color="#0b1120"/></linearGradient><filter id="shadow"><feDropShadow dx="0" dy="14" stdDeviation="24" flood-color="#000" flood-opacity=".42"/></filter></defs>
+<style>text{font-family:'Microsoft YaHei','Segoe UI',sans-serif;fill:#e8edf8}.muted{fill:#95a4bd}.tiny{font-size:14px}.small{font-size:17px}.body{font-size:19px}.title{font-size:26px;font-weight:700}.section{font-size:20px;font-weight:700}.blue{fill:#a6caff}</style>
+<rect width="1440" height="900" fill="url(#bg)"/><rect width="1440" height="67" fill="#151d2f"/>
+<text x="31" y="42" class="body" font-weight="700">DeepSeek Harness</text><text x="244" y="42" class="small muted">会话</text>
+<rect x="1170" y="15" width="204" height="38" rx="19" fill="#153a36" stroke="#277a66"/><circle cx="1191" cy="34" r="5" fill="#2cce8d"/><text x="1205" y="41" class="small">¥ 89.80</text><text x="1295" y="40" font-size="13" fill="#f08087">−¥0.20</text>
+<rect x="1383" y="15" width="39" height="38" rx="12" fill="#273c5d" stroke="#6b9ce8"/><text x="1392" y="42" font-size="23" fill="#b7d2ff">⚙</text>
+<rect x="0" y="67" width="1440" height="833" fill="#0b1120" opacity=".68"/>
+<rect x="139" y="91" width="1162" height="754" rx="22" fill="#1d293c" stroke="#455775" filter="url(#shadow)"/>
+<image href="../client/assets/pet/idle.png" x="168" y="112" width="62" height="62"/>
+<text x="247" y="139" class="title">编辑方案 · 小蓝鲸</text><text x="247" y="166" class="tiny muted">基础 5 个槽位 + 最多 5 个自定义槽位</text>
+<rect x="1138" y="112" width="113" height="45" rx="22" fill="#2b4267"/><text x="1165" y="141" class="small blue">7 / 10</text>
+<path d="M139 190 H1301" stroke="#34445f"/>
+<text x="170" y="227" class="section">场景槽位</text><text x="642" y="227" class="tiny muted">已用 7 个</text>
+<text x="170" y="264" class="tiny blue">基础槽位 · 固定 5 个</text>
+<rect x="169" y="279" width="531" height="48" rx="10" fill="#314869"/><text x="188" y="309" class="small">待机</text><text x="608" y="309" class="tiny blue">已配置</text>
+<rect x="169" y="335" width="531" height="48" rx="10" fill="#26354c"/><text x="188" y="365" class="small">查询中</text><text x="643" y="365" class="tiny muted">空</text>
+<rect x="169" y="391" width="531" height="48" rx="10" fill="#26354c"/><text x="188" y="421" class="small">余额减少</text><text x="643" y="421" class="tiny muted">空</text>
+<rect x="169" y="447" width="531" height="48" rx="10" fill="#26354c"/><text x="188" y="477" class="small">余额增加</text><text x="643" y="477" class="tiny muted">空</text>
+<rect x="169" y="503" width="531" height="48" rx="10" fill="#26354c"/><text x="188" y="533" class="small">错误</text><text x="643" y="533" class="tiny muted">空</text>
+<text x="170" y="587" class="tiny blue">自定义槽位 · 2 / 5</text>
+<rect x="169" y="599" width="531" height="48" rx="10" fill="#26354c"/><text x="188" y="629" class="small">挥手</text><text x="560" y="629" class="tiny muted">点击 + 条件</text>
+<rect x="169" y="655" width="531" height="48" rx="10" fill="#26354c"/><text x="188" y="685" class="small">晚安</text><text x="560" y="685" class="tiny muted">时间 + 状态</text>
+<rect x="169" y="720" width="531" height="51" rx="11" fill="#253d60" stroke="#6a9ce5" stroke-dasharray="5 4"/><text x="189" y="753" class="small blue">＋ 添加自定义槽位</text><text x="604" y="751" class="tiny muted">剩余 3 个</text>
+<path d="M730 212 V796" stroke="#34445f"/>
+<text x="764" y="227" class="section">新增槽位 · 自定义规则</text><text x="764" y="259" class="tiny muted">选择事件来源，自行组合条件和播放行为</text>
+<text x="764" y="294" class="small">场景名称</text><rect x="764" y="304" width="489" height="42" rx="10" fill="#28384f" stroke="#50617d"/><text x="783" y="332" class="small">开心一下</text>
+<text x="764" y="375" class="small">透明视频或图片</text><rect x="764" y="385" width="489" height="44" rx="10" fill="#28384f" stroke="#50617d"/><text x="783" y="413" class="small blue">＋ 选择本地文件</text><text x="764" y="452" class="tiny muted">透明 WebM、PNG、WebP、APNG</text>
+<text x="764" y="479" class="small">静态封面 / 后备</text><rect x="764" y="489" width="489" height="44" rx="10" fill="#28384f" stroke="#50617d"/><text x="783" y="517" class="small muted">从视频提取，或选择透明图片</text>
+<text x="764" y="566" class="small">触发规则 1</text><text x="1150" y="566" class="tiny blue">＋ 添加规则</text>
+<rect x="764" y="579" width="489" height="41" rx="10" fill="#28384f" stroke="#50617d"/><text x="783" y="605" class="small">当  可比较余额增加</text><text x="1226" y="605" class="small muted">⌄</text>
+<rect x="764" y="631" width="489" height="41" rx="10" fill="#28384f" stroke="#50617d"/><text x="783" y="657" class="small">且  币种 = CNY   ·   增加额 ≥ 10.00</text>
+<text x="764" y="695" class="tiny blue">＋ 添加条件</text><text x="1088" y="695" class="tiny muted">规则内条件均须满足</text>
+<rect x="764" y="705" width="489" height="40" rx="10" fill="#28384f"/><text x="783" y="731" class="tiny">单次播放  ·  冷却 5 分钟  ·  普通优先级</text>
+<text x="764" y="773" class="tiny">替代同事件基础动作</text><rect x="1206" y="752" width="47" height="27" rx="13" fill="#426fb6"/><circle cx="1237" cy="765" r="10" fill="#f5f8ff"/>
+<text x="764" y="809" class="tiny blue">播放预览</text><rect x="967" y="788" width="110" height="43" rx="10" fill="#2e3d55"/><text x="1005" y="815" class="tiny">取消</text>
+<rect x="1087" y="788" width="166" height="43" rx="10" fill="#426fb6"/><text x="1136" y="815" class="tiny">保存槽位</text>
+</svg>

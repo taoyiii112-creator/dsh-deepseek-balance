@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="900" viewBox="0 0 1440 900">
+    
+    <defs>
+      <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#0b1b35"/><stop offset=".52" stop-color="#2b5975"/><stop offset="1" stop-color="#e49a8d"/></linearGradient>
+      <radialGradient id="sun"><stop stop-color="#ffd0a5" stop-opacity=".86"/><stop offset="1" stop-color="#f2a68c" stop-opacity="0"/></radialGradient>
+      <linearGradient id="water" x2="0" y2="1"><stop stop-color="#526f83"/><stop offset="1" stop-color="#142743"/></linearGradient>
+      <linearGradient id="glass" x2="0" y2="1"><stop stop-color="#284865" stop-opacity=".73"/><stop offset="1" stop-color="#0d1c36" stop-opacity=".76"/></linearGradient>
+      <linearGradient id="customPhoto" x2="0" y2="1"><stop stop-color="#394869"/><stop offset=".52" stop-color="#b16470"/><stop offset="1" stop-color="#2a344e"/></linearGradient>
+      <linearGradient id="wallpaperPhoto" x2="0" y2="1"><stop stop-color="#496e78"/><stop offset=".57" stop-color="#467b77"/><stop offset="1" stop-color="#203d4c"/></linearGradient>
+      <linearGradient id="pageVideo" x2="0" y2="1"><stop stop-color="#243d63"/><stop offset=".55" stop-color="#458f92"/><stop offset="1" stop-color="#143451"/></linearGradient>
+      <linearGradient id="pageLocal" x2="0" y2="1"><stop stop-color="#2d3659"/><stop offset=".58" stop-color="#bf7480"/><stop offset="1" stop-color="#273857"/></linearGradient>
+      <filter id="shadow" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="15" stdDeviation="22" flood-color="#061021" flood-opacity=".45"/></filter>
+      <filter id="frost"><feGaussianBlur stdDeviation="15"/></filter>
+      <g id="wallpaper">
+        <rect width="1440" height="900" fill="url(#sky)"/>
+        <ellipse cx="1020" cy="375" rx="440" ry="325" fill="url(#sun)"/>
+        <path d="M0 512 125 420 210 462 344 323 474 429 593 364 735 493 902 344 1057 458 1197 333 1440 490V900H0Z" fill="#19334f" opacity=".82"/>
+        <path d="M0 575 188 502 346 563 527 455 715 559 884 470 1057 579 1237 498 1440 555V900H0Z" fill="#122840" opacity=".88"/>
+        <rect y="582" width="1440" height="318" fill="url(#water)"/>
+        <path d="M0 637q240-37 490 6t500 0q241-43 450-5" fill="none" stroke="#c1cccb" stroke-opacity=".21" stroke-width="4"/>
+        <path d="M0 703q230 19 460 0t455 1q235 20 525-2" fill="none" stroke="#f8c4b4" stroke-opacity=".16" stroke-width="3"/>
+        <path d="M0 791q300-26 638 0t802-3" fill="none" stroke="#a2c9cf" stroke-opacity=".13" stroke-width="3"/>
+        <circle cx="1077" cy="177" r="2" fill="#fff" opacity=".75"/><circle cx="320" cy="98" r="1.5" fill="#fff" opacity=".55"/><circle cx="555" cy="197" r="1.5" fill="#fff" opacity=".55"/>
+      </g>
+    </defs>
+    <use href="#wallpaper"/>
+    
+    <rect width="1440" height="66" fill="#07162a" opacity=".56"/>
+    <rect y="66" width="232" height="834" fill="#0a1a30" opacity=".48"/>
+    <line x1="232" y1="66" x2="232" y2="900" stroke="#e8f2ff" stroke-opacity=".13"/>
+    <text x="28" y="42" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="19" fill="#fff" font-weight="700">DeepSeek Harness</text>
+    <text x="242" y="42" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="16" fill="#c8d8ee" >会话</text><text x="315" y="42" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="16" fill="#c8d8ee" >文件</text>
+    <text x="28" y="122" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="14" fill="#b6c8de" >最近会话</text>
+    <rect x="14" y="145" width="204" height="44" rx="12" fill="#eff7ff" opacity=".13"/>
+    <text x="31" y="173" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="16" fill="#f5f8ff" >新会话</text>
+    <text x="30" y="236" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="15" fill="#d1dded" >余额插件讨论</text><text x="30" y="281" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="15" fill="#d1dded" >桌宠交互设计</text><text x="30" y="326" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="15" fill="#d1dded" >使用说明</text>
+    <text x="286" y="125" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="14" fill="#d6e5f5" >当前会话</text><text x="286" y="184" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="28" fill="#fff" font-weight="700">DeepSeek API 余额</text>
+    <text x="286" y="224" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="15" fill="#e0ebf5" >示意背景图：用户自己为 DeepSeek 页面设置的壁纸</text>
+    <rect x="280" y="272" width="490" height="92" rx="17" fill="#0c1d34" opacity=".33" stroke="#f1f8ff" stroke-opacity=".14"/>
+    <text x="305" y="309" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="18" fill="#f5f8ff" >余额更新</text><text x="305" y="340" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="15" fill="#d1dfeb" >插件内容与页面背景自然融合</text>
+    <rect x="280" y="760" width="520" height="88" rx="17" fill="#071a30" opacity=".45" stroke="#f6f9ff" stroke-opacity=".23"/>
+    <text x="307" y="812" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="17" fill="#d3e0ec" >输入消息…</text>
+    
+  
+    
+    <line x1="1147" y1="0" x2="1147" y2="13" stroke="#e2f4ff" stroke-opacity=".72" stroke-width="1.4"/>
+    <g filter="url(#shadow)">
+      <rect x="1020" y="13" width="254" height="41" rx="20.5" fill="#09243e" opacity=".43" stroke="#d6f7ea" stroke-opacity=".54"/>
+      <circle cx="1040" cy="33" r="5" fill="#56ecc2"/>
+      <text x="1056" y="40" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="17" fill="#fff" font-weight="700">¥ 89.80</text>
+      <text x="1171" y="39" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="13" fill="#f9bdc4" >−¥0.20</text>
+      <line x1="1231" y1="23" x2="1231" y2="44" stroke="#cfe9ff" stroke-opacity=".27"/>
+      <rect x="1283" y="13" width="42" height="41" rx="13" fill="#09243e" opacity=".42" stroke="#d6eafa" stroke-opacity=".48"/>
+      <text x="1292" y="42" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="24" fill="#f0f7ff" >⚙</text>
+    </g>
+  
+    
+    
+    <defs><clipPath id="panelClip"><rect x="827" y="93" width="540" height="715" rx="24"/></clipPath></defs>
+    <g filter="url(#shadow)"><rect x="827" y="93" width="540" height="715" rx="24" fill="#0c1930" opacity=".56"/></g>
+    <g clip-path="url(#panelClip)">
+      <use href="#wallpaper" filter="url(#frost)"/><rect x="827" y="93" width="540" height="715" fill="url(#glass)" opacity=".76"/>
+      <rect x="827" y="93" width="540" height="72" fill="#fff" opacity=".055"/>
+    </g>
+    <rect x="827" y="93" width="540" height="715" rx="24" fill="none" stroke="#f1f8ff" stroke-opacity=".45"/>
+    <circle cx="863" cy="126" r="2.5" fill="#e6f3ff"/><circle cx="873" cy="126" r="2.5" fill="#e6f3ff"/>
+    <circle cx="863" cy="135" r="2.5" fill="#e6f3ff"/><circle cx="873" cy="135" r="2.5" fill="#e6f3ff"/>
+    <text x="893" y="141" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="27" fill="#fff" font-weight="700">插件设置</text>
+    <text x="1321" y="139" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="28" fill="#e7f4ff" >×</text>
+    <rect x="855" y="182" width="476" height="47" rx="13" fill="#071a31" opacity=".48" stroke="#fff" stroke-opacity=".12"/>
+    <rect x="860" y="187" width="151" height="37" rx="10" fill="#8ec1f5" opacity=".36"/><text x="919" y="212" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="17" fill="#fff" >余额</text><rect x="1016" y="187" width="151" height="37" rx="10" fill="#fff" opacity=".04"/><text x="1075" y="212" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="17" fill="#c5d6e6" >桌宠</text><rect x="1172" y="187" width="151" height="37" rx="10" fill="#fff" opacity=".04"/><text x="1231" y="212" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="17" fill="#c5d6e6" >外观</text>
+    
+    <text x="855" y="271" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="21" fill="#fff" font-weight="700">账户与余额</text>
+    <rect x="855" y="288" width="476" height="77" rx="15" fill="#f8fbff" opacity=".10" stroke="#fff" stroke-opacity=".12"/>
+    <text x="873" y="320" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="17" fill="#f5f8ff" >API Key</text><text x="873" y="346" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="13" fill="#d2e2f2" >已在本机安全配置 · 不向网页回显</text>
+    <rect x="1207" y="304" width="106" height="45" rx="12" fill="#aad0ff" opacity=".27"/>
+    <text x="1225" y="333" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="14" fill="#f5f8ff" >管理密钥</text>
+    <text x="855" y="417" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="21" fill="#fff" font-weight="700">自动刷新</text>
+    <text x="855" y="443" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="14" fill="#dce9f5" >选择 30 秒至 5 分钟，保存后重新计时</text>
+    <rect x="855" y="465" width="109" height="45" rx="12" fill="#f7fbff" opacity=".10" stroke="#fff" stroke-opacity=".12"/><text x="878" y="493" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="15" fill="#f5f8ff" >30 秒</text><rect x="974" y="465" width="109" height="45" rx="12" fill="#7eb5f4" opacity=".35" stroke="#fff" stroke-opacity=".12"/><text x="997" y="493" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="15" fill="#f5f8ff" >1 分钟</text><rect x="1093" y="465" width="109" height="45" rx="12" fill="#f7fbff" opacity=".10" stroke="#fff" stroke-opacity=".12"/><text x="1116" y="493" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="15" fill="#f5f8ff" >5 分钟</text><rect x="1212" y="465" width="109" height="45" rx="12" fill="#f7fbff" opacity=".10" stroke="#fff" stroke-opacity=".12"/><text x="1235" y="493" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="15" fill="#f5f8ff" >自定义</text>
+    <rect x="855" y="536" width="476" height="67" rx="15" fill="#f8fbff" opacity=".10" stroke="#fff" stroke-opacity=".12"/>
+    <text x="873" y="565" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="16" fill="#f5f8ff" >当前间隔</text><text x="1235" y="566" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="16" fill="#c0ddff" >1 分钟</text>
+    <text x="873" y="588" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="13" fill="#d5e7f4" >背景仍能透过设置面板看到</text>
+    <text x="855" y="658" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="21" fill="#fff" font-weight="700">低余额提醒</text>
+    <rect x="855" y="675" width="476" height="55" rx="15" fill="#f8fbff" opacity=".10" stroke="#fff" stroke-opacity=".12"/>
+    <text x="873" y="709" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="16" fill="#f5f8ff" >阈值</text><text x="1240" y="709" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="16" fill="#f5f8ff" >¥ 10.00</text>
+  
+    <line x1="855" y1="750" x2="1339" y2="750" stroke="#fff" stroke-opacity=".18"/>
+    <text x="855" y="776" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="13" fill="#dce9f5" >拖动标题区域可移动面板 · 背景只保存在当前浏览器</text>
+  
+    <rect x="275" y="866" width="346" height="26" rx="13" fill="#0a1b32" opacity=".58"/>
+    <text x="292" y="884" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="13" fill="#e1edfa" >0.5.1 预览 A · 默认透明设置</text>
+  </svg>

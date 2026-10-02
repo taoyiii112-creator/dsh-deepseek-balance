@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" width="1440" height="900">
+<defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#101626"/><stop offset="1" stop-color="#0b1120"/></linearGradient><filter id="shade"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity=".25"/></filter></defs>
+<style>text{font-family:'Microsoft YaHei','Segoe UI',sans-serif;fill:#e8edf8}.muted{fill:#94a1b8}.tiny{font-size:14px}.small{font-size:17px}.body{font-size:19px}.title{font-size:27px;font-weight:700}.blue{fill:#9bc4ff}</style>
+<rect width="1440" height="900" fill="url(#bg)"/>
+<rect width="1440" height="67" fill="#151d2f"/>
+<text x="31" y="42" class="body" font-weight="700">DeepSeek Harness</text><text x="244" y="42" class="small muted">会话</text><text x="330" y="42" class="small muted">文件</text>
+<rect x="1159" y="15" width="204" height="38" rx="19" fill="#153a36" stroke="#277a66"/><circle cx="1181" cy="34" r="5" fill="#2cce8d"/><text x="1195" y="41" class="small">¥ 89.80</text><text x="1286" y="40" font-size="13" fill="#f08087">−¥0.20</text>
+<rect x="1373" y="15" width="39" height="38" rx="12" fill="#273c5d" stroke="#6b9ce8"/><text x="1382" y="42" font-size="23" fill="#b7d2ff">⚙</text>
+<rect x="0" y="67" width="246" height="833" fill="#111a2a"/>
+<text x="31" y="125" class="tiny muted">最近会话</text><rect x="15" y="152" width="217" height="43" rx="10" fill="#202d45"/><text x="30" y="180" class="small">新会话</text><text x="30" y="243" class="tiny muted">余额插件讨论</text><text x="30" y="287" class="tiny muted">桌宠交互设计</text>
+<text x="297" y="132" class="title">桌宠贴边状态</text><text x="297" y="174" class="small muted">桌宠本体不再有关闭按钮，可拖到视口右侧和底部。</text>
+<rect x="297" y="219" width="476" height="131" rx="17" fill="#1b2b43" stroke="#385576" filter="url(#shade)"/>
+<text x="322" y="257" class="small blue">隐藏或恢复桌宠</text>
+<text x="322" y="288" class="small">顶栏齿轮 → 桌宠 →“显示桌宠”</text>
+<text x="322" y="320" class="tiny muted">隐藏后立即停止媒体；重新打开恢复当前位置。</text>
+<rect x="297" y="397" width="594" height="108" rx="16" fill="#1a263c"/><text x="323" y="436" class="small">会话内容</text><text x="323" y="470" class="tiny muted">桌宠可从可见图像区域拖回页面中间</text>
+<rect x="286" y="768" width="797" height="92" rx="18" fill="#1a263c" stroke="#344561"/><text x="314" y="820" class="small muted">输入消息…</text>
+<image href="../client/assets/pet/idle.png" x="1164" y="639" width="278" height="278" preserveAspectRatio="xMidYMid meet"/>
+<path d="M1120 733 L1154 733" fill="none" stroke="#86b7ff" stroke-width="2"/>
+<text x="929" y="739" class="tiny blue">无悬浮关闭按钮</text>
+</svg>

@@ -1,0 +1,15 @@
+{
+  "name": "dsh-deepseek-balance",
+  "description": "在 DeepSeek Harness Desktop 会话顶栏显示余额，并提供点击式 API Key 配置",
+  "version": "1.0.1",
+  "entry": {
+    "name": "dsh-deepseek-balance",
+    "inject": [
+      "webServer",
+      "credentials"
+    ]
+  },
+  "client": {
+    "platform": "web"
+  }
+}

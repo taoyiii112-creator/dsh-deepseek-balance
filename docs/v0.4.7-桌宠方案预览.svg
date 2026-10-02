@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" width="1440" height="900">
+<defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#101626"/><stop offset="1" stop-color="#0b1120"/></linearGradient><filter id="shadow"><feDropShadow dx="-12" dy="0" stdDeviation="18" flood-color="#000" flood-opacity=".3"/></filter></defs>
+<style>text{font-family:'Microsoft YaHei','Segoe UI',sans-serif;fill:#e8edf8}.muted{fill:#94a1b8}.tiny{font-size:14px}.small{font-size:17px}.body{font-size:19px}.title{font-size:27px;font-weight:700}.section{font-size:21px;font-weight:700}.blue{fill:#81b4ff}</style>
+<rect width="1440" height="900" fill="url(#bg)"/><rect width="1440" height="67" fill="#151d2f"/>
+<text x="31" y="42" class="body" font-weight="700">DeepSeek Harness</text><text x="244" y="42" class="small muted">会话</text><text x="330" y="42" class="small muted">文件</text>
+<rect x="982" y="15" width="203" height="38" rx="19" fill="#153a36" stroke="#277a66"/><circle cx="1004" cy="34" r="5" fill="#2cce8d"/><text x="1018" y="41" class="small">¥ 89.80</text><text x="1109" y="40" font-size="13" fill="#f08087">−¥0.20</text>
+<rect x="1195" y="15" width="39" height="38" rx="12" fill="#273c5d" stroke="#6b9ce8"/><text x="1204" y="42" font-size="23" fill="#b7d2ff">⚙</text>
+<rect x="0" y="67" width="246" height="833" fill="#111a2a"/><text x="31" y="125" class="tiny muted">最近会话</text><rect x="15" y="152" width="217" height="43" rx="10" fill="#202d45"/><text x="30" y="180" class="small">新会话</text><text x="30" y="243" class="tiny muted">余额插件讨论</text><text x="30" y="287" class="tiny muted">桌宠交互设计</text>
+<text x="297" y="137" class="title">桌宠预览</text><text x="297" y="181" class="small muted">当前桌宠仍悬浮在页面内；拖动位置独立于方案。</text>
+<rect x="290" y="229" width="595" height="480" rx="20" fill="#19253a" stroke="#324564"/><text x="317" y="268" class="tiny muted">当前方案 · 内置桌宠</text>
+<image href="../client/assets/pet/idle.png" x="353" y="294" width="470" height="470" preserveAspectRatio="xMidYMid meet"/>
+<rect x="913" y="67" width="527" height="833" fill="#1e293c" filter="url(#shadow)"/><text x="947" y="119" class="title">插件设置</text><text x="1382" y="116" font-size="26" fill="#aebbd1">×</text>
+<rect x="945" y="148" width="459" height="48" rx="12" fill="#121c2d"/><text x="1038" y="179" class="small muted">余额</text><rect x="1178" y="153" width="220" height="38" rx="9" fill="#345e9b"/><text x="1269" y="179" class="small">桌宠</text>
+<rect x="945" y="217" width="459" height="60" rx="12" fill="#26354c"/><text x="965" y="254" class="small">显示桌宠</text><rect x="1337" y="232" width="48" height="29" rx="14" fill="#426fb6"/><circle cx="1369" cy="246" r="11" fill="#f5f8ff"/>
+<text x="947" y="324" class="section">桌宠方案</text><text x="947" y="351" class="tiny muted">内置方案 + 最多保存 3 个自定义方案</text>
+<rect x="945" y="365" width="459" height="78" rx="13" fill="#2d466a" stroke="#70a6f5"/>
+<rect x="958" y="375" width="58" height="58" rx="10" fill="#3f628b"/><image href="../client/assets/pet/idle.png" x="959" y="375" width="56" height="56"/>
+<text x="1033" y="399" class="small">内置桌宠</text><text x="1033" y="423" class="tiny muted">透明视频 + 静态后备</text><text x="1350" y="411" class="tiny blue">当前</text>
+<rect x="945" y="456" width="459" height="78" rx="13" fill="#26354c"/><rect x="958" y="466" width="58" height="58" rx="10" fill="#344866"/><text x="977" y="503" font-size="23">◈</text><text x="1033" y="490" class="small">小蓝鲸</text><text x="1033" y="514" class="tiny muted">透明 WebM · 可编辑名称与封面</text><text x="1351" y="501" class="tiny blue">切换</text>
+<rect x="945" y="547" width="459" height="78" rx="13" fill="#26354c"/><rect x="958" y="557" width="58" height="58" rx="10" fill="#344866"/><text x="978" y="594" font-size="23">✦</text><text x="1033" y="581" class="small">星河猫</text><text x="1033" y="605" class="tiny muted">透明 PNG · 静态桌宠</text><text x="1351" y="592" class="tiny blue">切换</text>
+<rect x="945" y="638" width="459" height="78" rx="13" fill="#1c2a40" stroke="#59759c" stroke-dasharray="5 5"/><text x="971" y="686" font-size="26" fill="#8db9ff">＋</text><text x="1033" y="671" class="small">导入新方案</text><text x="1033" y="696" class="tiny muted">剩余 1 个自定义名额</text>
+<text x="947" y="761" class="section">导入内容</text><text x="947" y="789" class="tiny muted">透明 WebM、PNG、WebP 或 APNG</text>
+<rect x="945" y="803" width="459" height="53" rx="12" fill="#26354c"/><text x="967" y="837" class="small">方案名称 · 封面 · 待机媒体</text><text x="1360" y="837" class="small blue">›</text>
+<text x="947" y="882" class="tiny muted">素材仅保存在当前浏览器，不上传到网络。</text>
+</svg>

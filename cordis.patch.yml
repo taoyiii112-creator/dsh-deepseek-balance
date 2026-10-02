@@ -1,0 +1,4 @@
+# DeepSeek official API balance panel.
+- insert:
+    - id: dsh-deepseek-balance
+      name: dsh-deepseek-balance

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" width="1440" height="900">
+<defs>
+  <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#101626"/><stop offset="1" stop-color="#0b1120"/></linearGradient>
+  <filter id="shadow"><feDropShadow dx="-12" dy="0" stdDeviation="18" flood-color="#000" flood-opacity=".3"/></filter>
+</defs>
+<style>
+  text{font-family:'Microsoft YaHei','Segoe UI',sans-serif;fill:#e8edf8} .muted{fill:#94a1b8}.tiny{font-size:14px}.small{font-size:17px}.body{font-size:19px}.title{font-size:27px;font-weight:700}.section{font-size:21px;font-weight:700}.blue{fill:#81b4ff}
+</style>
+<rect width="1440" height="900" fill="url(#bg)"/>
+<rect width="1440" height="67" fill="#151d2f"/>
+<text x="31" y="42" class="body" font-weight="700">DeepSeek Harness</text>
+<text x="244" y="42" class="small muted">会话</text><text x="330" y="42" class="small muted">文件</text>
+<rect x="981" y="15" width="204" height="38" rx="19" fill="#153a36" stroke="#277a66"/>
+<circle cx="1003" cy="34" r="5" fill="#2cce8d"/>
+<text x="1018" y="41" class="small">¥ 89.80</text><text x="1109" y="40" font-size="13" fill="#f08087">−¥0.20</text>
+<rect x="1195" y="15" width="39" height="38" rx="12" fill="#273c5d" stroke="#6b9ce8"/>
+<text x="1204" y="42" font-size="23" fill="#b7d2ff">⚙</text>
+<text x="1249" y="40" class="tiny blue">插件设置</text>
+<rect x="0" y="67" width="246" height="833" fill="#111a2a"/>
+<text x="31" y="125" class="tiny muted">最近会话</text>
+<rect x="15" y="152" width="217" height="43" rx="10" fill="#202d45"/><text x="30" y="180" class="small">新会话</text>
+<text x="30" y="243" class="tiny muted">余额插件讨论</text><text x="30" y="287" class="tiny muted">桌宠交互设计</text><text x="30" y="331" class="tiny muted">使用说明</text>
+<text x="299" y="129" class="tiny muted">当前会话</text><text x="299" y="192" class="title">DeepSeek API 余额</text>
+<text x="299" y="240" class="small muted">余额胶囊常驻顶栏，点击金额可手动刷新。</text>
+<rect x="298" y="295" width="510" height="96" rx="16" fill="#1a263c"/><text x="323" y="331" class="small">余额更新</text><text x="323" y="362" class="tiny muted">余额变化、桌宠状态与设置在同一页面内可见</text>
+<rect x="286" y="769" width="648" height="92" rx="18" fill="#1a263c" stroke="#344561"/><text x="314" y="821" class="small muted">输入消息…</text>
+<rect x="913" y="67" width="527" height="833" fill="#1e293c" filter="url(#shadow)"/>
+<text x="947" y="119" class="title">插件设置</text><text x="1382" y="116" font-size="26" fill="#aebbd1">×</text>
+<rect x="945" y="148" width="459" height="48" rx="12" fill="#121c2d"/>
+<rect x="950" y="153" width="220" height="38" rx="9" fill="#345e9b"/><text x="1033" y="179" class="small">余额</text><text x="1270" y="179" class="small muted">桌宠</text>
+<text x="947" y="244" class="section">账户与余额</text>
+<rect x="945" y="266" width="459" height="78" rx="12" fill="#26354c"/>
+<text x="963" y="298" class="small">API Key</text><text x="963" y="326" class="tiny muted">已在本机安全配置 · 不向网页回显</text>
+<rect x="1286" y="282" width="99" height="44" rx="10" fill="#314e79"/><text x="1305" y="310" class="tiny">管理密钥</text>
+<text x="947" y="393" class="section">自动刷新</text><text x="947" y="421" class="tiny muted">默认 1 分钟 · 可设置 30 秒至 5 分钟</text>
+<rect x="945" y="445" width="104" height="49" rx="10" fill="#28384f"/><text x="970" y="476" class="small">30 秒</text>
+<rect x="1061" y="445" width="104" height="49" rx="10" fill="#426fb6"/><text x="1085" y="476" class="small">1 分钟</text>
+<rect x="1177" y="445" width="104" height="49" rx="10" fill="#28384f"/><text x="1201" y="476" class="small">5 分钟</text>
+<rect x="1293" y="445" width="111" height="49" rx="10" fill="#28384f"/><text x="1311" y="476" class="small">自定义</text>
+<rect x="945" y="514" width="459" height="79" rx="12" fill="#26354c"/>
+<text x="965" y="547" class="small">当前间隔</text><text x="1340" y="548" class="small blue">1 分钟</text>
+<text x="965" y="575" class="tiny muted">修改后从保存时开始重新计时</text>
+<text x="947" y="653" class="section">低余额提醒</text>
+<rect x="945" y="677" width="459" height="67" rx="12" fill="#26354c"/>
+<text x="964" y="719" class="small">阈值</text><text x="1328" y="719" class="small">¥ 10.00</text>
+<text x="947" y="786" class="tiny muted">余额低于阈值时显示充值入口，需由用户点击。</text>
+<rect x="1241" y="823" width="163" height="48" rx="12" fill="#426fb6"/><text x="1293" y="854" class="small">完成</text>
+</svg>
